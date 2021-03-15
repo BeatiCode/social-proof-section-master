@@ -1,0 +1,58 @@
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 100%);
+    /* background-image: 
+        url(images/bg-pattern-top-desktop.svg) no-repeat top; */
+}
+._container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.title {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.product__container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 130px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.product__content {
+    padding-right: 200px;
+}
+.product__title {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.product__text {
+    color: hsl(303, 10%, 53%);
+}
+.products__rated {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rated {
+    max-width: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.rated__stars {
+    padding: 10px 30px 0 0;
+}
+.rated__stars img {
+    padding-left: 2px;
+}
