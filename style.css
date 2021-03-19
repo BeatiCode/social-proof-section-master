@@ -49,10 +49,12 @@ html {
     font-size: 3rem;
     margin-bottom: 10px;
     margin-top: 0;
+    line-height: 1;
 }
 
 .product__text {
     color: hsl(303, 10%, 53%);
+    line-height: 1.9;
 }
 
 .products__rated {
@@ -142,7 +144,7 @@ html {
 
 .attribution {
     position: relative;
-    top: 100px;
+    top: 70px;
     font-size: 11px;
     text-align: center;
   }
