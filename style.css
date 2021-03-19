@@ -1,7 +1,10 @@
 html {
+    margin: 0 auto;
+    max-width: 1440px;
+    height: auto;
     background: 
         url(images/bg-pattern-top-desktop.svg) no-repeat top left,
-        url(images/bg-pattern-bottom-desktop.svg) no-repeat right top 17vh;
+        url(images/bg-pattern-bottom-desktop.svg) no-repeat right bottom -130px;
 }
 .page {
     max-width: 1440px;
